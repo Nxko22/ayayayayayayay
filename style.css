@@ -1,0 +1,47 @@
+/* General page style */
+body {
+  background-color: #ffe6f0; /* light pink */
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  color: #4a004a; /* deep purple for Kuromi vibe */
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container styling */
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 30px;
+  background: #fff0f6; /* softer pink box */
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(200, 100, 150, 0.3);
+}
+
+/* Heading */
+h1 {
+  font-size: 2.5em;
+  color: #d63384; /* bold pink */
+  text-shadow: 2px 2px #ffb6c1;
+}
+
+/* Message text */
+.message {
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin-top: 20px;
+}
+
+/* Kuromi image styling */
+.kuromi-img {
+  margin-top: 30px;
+  width: 200px;
+  border: 5px solid #d63384;
+  border-radius: 50%;
+  box-shadow: 0 0 15px rgba(150, 0, 100, 0.4);
+  transition: transform 0.3s ease;
+}
+
+.kuromi-img:hover {
+  transform: scale(1.1) rotate(-5deg);
+}
